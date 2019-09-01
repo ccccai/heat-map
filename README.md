@@ -81,5 +81,5 @@ heatMap.init(dom)
 | rect.stroke.show | 是否显示方格边框 | Boolean | true/false | false |
 | rect.stroke.background | 方格边框颜色 | String | - | #333333 |
 | rect.stroke.opacity | 方格边框透明度 | Float | 0～1 | 0.6 |
-| rect.colourMatching | 方格配色方案，可以自定义也可以使用现有的配色方案 | String | custom/green/pink/blue/orange/gray | green |
-| rect.stroke.backgroundArr | 方格配色方案具体颜色，多少个颜色就表示多少个等级，等级由重到轻，第一个颜色表示等级最重 | Array | - | - |
+| rect.colourMatching | 方格配色方案，可以自定义（custom）也可以使用现有的配色方案 | String | custom/green/pink/blue/orange/gray | green |
+| rect.stroke.backgroundArr | 当type为custom类型时起作用，方格配色方案具体颜色，多少个颜色就表示多少个等级，等级由重到轻，第一个颜色表示等级最重 | Array | - | - |

@@ -1,0 +1,46 @@
+
+
+.svg-tip {
+  display: none;
+  background: rgba(0, 0, 0, .8);
+  border-radius: 3px;
+  color:#959da5;
+  font-size: 12px;
+  padding: 10px;
+  position: absolute;
+  text-align: center;
+  z-index: 99999
+}
+
+.svg-tip strong {
+  color:#dfe2e5
+}
+
+.svg-tip:after {
+  border: 5px solid transparent;
+  border-top-color: rgba(0, 0, 0, .8);
+  bottom: -10px;
+  box-sizing: border-box;
+  content: " ";
+  height: 5px;
+  left: 50%;
+  margin: 0 0 0 -5px;
+  position: absolute;
+  width: 5px
+}
+
+.svg-tip-one-line {
+  white-space: nowrap
+}
+
+.svg-container .month{
+  fill:#767676;
+  font-size:14px;
+  text-align: center;
+}
+
+.svg-container .wday {
+  fill:#767676;
+  font-size: 12px;
+  text-align: center;
+}

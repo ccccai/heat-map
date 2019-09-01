@@ -8,17 +8,17 @@
 - 自定义型热力图
 ![image](./images/custom.gif)
 
-###用法
+### 用法
 使用起来很简单，只要引入css文件和js文件即可
 
-####引入css和js
+#### 引入css和js
 引入css：
 <link rel="stylesheet" href="./heatMap.css" />
 
 引入js：
 <script src="./heatMap.js"></script>
 
-####初始化heatMap
+#### 初始化heatMap
 ```
 <script>
   var heatMap = new HeatMapDate()
@@ -44,13 +44,13 @@
 <\script>
 ```
 
-###配置参数说明
->初始化参数方法，需传入配置参数object：
+### 配置参数说明
+> 初始化参数方法，需传入配置参数object：
 ```
 heatMap.setOption(option)
 ```
 
->初始化参数热力图，需传入需要挂载的dom节点：
+> 初始化参数热力图，需传入需要挂载的dom节点：
 ```
 heatMap.init(dom)
 ```

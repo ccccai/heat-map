@@ -13,10 +13,14 @@
 
 #### 引入css和js
 引入css：
+```
 <link rel="stylesheet" href="./heatMap.css" />
+```
 
 引入js：
+```
 <script src="./heatMap.js"></script>
+```
 
 #### 初始化heatMap
 ```
@@ -59,7 +63,7 @@ heatMap.init(dom)
 
 | 参数 | 说明 | 类型 | 可选值 | 默认值 |
 | ------ | ------ | ------ | ------ | ------ |
-| type | 热力图类型 | String | date-日历型/custom-自定义型 | date |
+| type | 热力图类型,分两种，date-日历型和custom-自定义型 | String | date/custom | date |
 | xAxis | 横坐标的label,当type为custom类型时需要传递该参数 | Array | - | - |
 | yAxis | 纵坐标的label,当type为custom类型时需要传递该参数 | Array | - | - |
 | gap | 方格之间的间隔 | Number | - | 3 |

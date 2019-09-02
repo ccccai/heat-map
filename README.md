@@ -67,7 +67,7 @@ heatMap.init(dom)
 | xAxis | 横坐标的label,当type为custom类型时需要传递该参数 | Array | - | - |
 | yAxis | 纵坐标的label,当type为custom类型时需要传递该参数 | Array | - | - |
 | gap | 方格之间的间隔 | Number | - | 3 |
-| data | 数据,如果type是date,那data是Object类型;如果type是custom,那data是Array类型 | Object/Array | - | - |
+| data | 数据,如果type是date,那data是Object类型,格式{yyyy-MM-hh: value ...};如果type是custom,那data是Array类型,格式[[x,y,value]...] | Object/Array | - | - |
 | dateStart | 当type为date类型时起作用，表示起始日期，日期格式：yyyy-MM-dd | String | - | 去年的今天 |
 | rect | 方格的相关属性 | Object | - | - |
 | dateEnd | 当type为date类型时起作用，表示结束日期，日期格式：yyyy-MM-dd | String | - | 今天 |

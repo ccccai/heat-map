@@ -316,7 +316,7 @@ function HeatMapDate() {
       }
 
       // 设置svg元素的宽高
-      svg.style.width = Math.ceil(section * columnCount + translateX + maxStrLength + labelPadding)
+      svg.style.width = section * columnCount + translateX / 2 + maxStrLength + labelPadding
       svg.style.height = section * 7 + translateY
     }
 

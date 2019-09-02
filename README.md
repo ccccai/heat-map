@@ -75,7 +75,7 @@ heatMap.init(dom)
 | min | 分级的最高值，默认总共五个等级 | Number | - | data里头的值的最大值 |
 | tip | 方格顶部鼠标悬浮小气泡的相关属性 | Object | - | - |
 | tip.show | 鼠标悬浮是否显示小气泡 | Boolean | true/false | true |
-| tip.formatter | 小气泡的文本内容。type为date的时候{a}表示日期，{b}表示数值；type为custom的时候表示{x}x轴对应的值，{y}y轴对应的值，{b}表示数值；如果在替换字符串前加反斜杠(例如/{b})，则不会替换该字符串 | String | - | - |
+| tip.formatter | 小气泡的文本内容。type为date的时候{a}表示日期，{b}表示数值；type为custom的时候{x}表示x轴对应的值，{y}对应y轴的值，{b}表示数值；如果在替换字符串前加反斜杠(例如/{b})，则不会替换该字符串 | String | - | - |
 | rect | 方格的相关属性 | Object | - | - |
 | rect.stroke | 方格边框的相关属性 | Object | - | - |
 | rect.stroke.show | 是否显示方格边框 | Boolean | true/false | false |
